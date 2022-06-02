@@ -56,10 +56,10 @@ const ContactSection = () => {
       console.log("Sending...");
       emailjs
         .sendForm(
-          "service_yd28gh3",
-          "template_cccvuxd",
+          "service",
+          "template_",
           e.target,
-          "zGZgzOLBNrZsq2CRk"
+          "KEY"
         )
         .then(
           (result) => {
