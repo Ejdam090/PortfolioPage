@@ -63,11 +63,11 @@ border-left: 1px solid #000;
 }
 ::-webkit-scrollbar-thumb {
 background: #0e446c;
-    -webkit-box-shadow: inset 0 0 6px #0e446c;
+    box-shadow: inset 0 0 6px #0e446c;
 }
 ::-webkit-scrollbar-thumb:hover {
 background: #0e446c;
-    -webkit-box-shadow: inset 0 0 6px #0e446c;
+    box-shadow: inset 0 0 6px #0e446c;
 }
 ::-webkit-scrollbar-thumb:window-inactive {
 background: #0e446c;

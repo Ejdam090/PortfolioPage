@@ -6,11 +6,13 @@ import HomePage from "./Pages/HomePage";
 import ResumePage from "./Pages/ResumePage";
 import PortfolioPage from "./Pages/PortfolioPage";
 import ContactPage from "./Pages/ContactPage";
+import BurgerMenu from "./Components/BurgerMenu";
 
 function App() {
   return (
     <AppStyled>
       <SideBar />
+      <BurgerMenu />
       <MainContentStyled>
         <Routes>
           <Route path="/" exact element={<HomePage />} />

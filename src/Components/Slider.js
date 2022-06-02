@@ -147,10 +147,10 @@ const SliderStyled = styled.div`
       }
     }
     .prev {
-      top: 30%;
+      top: 40%;
     }
     .next {
-      top: 30%;
+      top: 40%;
     }
   }
 `;

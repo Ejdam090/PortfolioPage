@@ -1,13 +1,11 @@
 import React from "react";
 import styled from "styled-components";
 import Navigation from "./Navigation";
-import BurgerMenu from "./BurgerMenu";
 
 const SideBar = () => {
   return (
     <SidebarStyled>
       <Navigation />
-      <BurgerMenu />
     </SidebarStyled>
   );
 };
