@@ -123,9 +123,10 @@ const ImageSectionStyled = styled.div`
     }
   }
   @media (max-width: 375px) {
+  flex-direction:column;
     .left-content {
       img {
-        width: 200px;
+        width: 300px;
         height: 400px;
         object-fit: cover;
       }
