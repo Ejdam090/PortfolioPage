@@ -1,5 +1,5 @@
 import { useCallback } from "react";
-import Particles from "react-particles";
+import Particles from "react-particles-js";
 import { loadFull } from "tsparticles";
 
 
