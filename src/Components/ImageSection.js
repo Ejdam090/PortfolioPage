@@ -8,7 +8,7 @@ const ImageSection = () => {
   return (
     <ImageSectionStyled>
       <div className="left-content">
-        <img src={resume} alt="zdjęcie" />
+        <img src={resume} alt="me" />
       </div>
       <div className="right-content">
         <h4>
@@ -115,6 +115,7 @@ const ImageSectionStyled = styled.div`
   }
   @media (max-width: 768px) {
     .left-content {
+      width: 100%;
       img {
         width: 300px;
         height: 500px;
@@ -122,16 +123,20 @@ const ImageSectionStyled = styled.div`
       }
     }
   }
-  @media (max-width: 375px) {
-  flex-direction:column;
-    .left-content {
-      img {
-        width: 300px;
-        height: 400px;
-        object-fit: cover;
+  @media (max-width: 697px) {
+    flex-direction: column;
+    .right-content{
+      .paragraph{
+        width: 100%;
+      }
+    }
+    .left-content{
+      img{
+        width: 100%;
       }
     }
   }
+ 
 `;
 
 export default ImageSection;

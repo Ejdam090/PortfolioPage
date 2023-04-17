@@ -1,4 +1,4 @@
-import React, { useRef, useState, useEffect } from "react";
+import React, {  useRef, useState, useEffect } from "react";
 import styled from "styled-components";
 import Typewriter from "typewriter-effect";
 import emailjs from "@emailjs/browser";

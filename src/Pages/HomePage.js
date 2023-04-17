@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import Particle from "../Components/Particles";
+import Particless from "../Components/Particles";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import GitHubIcon from "@mui/icons-material/GitHub";
 import LinkedInIcon from "@mui/icons-material/LinkedIn";
@@ -15,7 +15,7 @@ const HomePage = () => {
         <div className="line-4"></div>
       </div>
       <div className="tparticles">
-        <Particle />
+        <Particless />
       </div>
       <div className="typography">
         <h1>

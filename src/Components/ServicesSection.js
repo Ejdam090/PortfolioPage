@@ -47,7 +47,7 @@ const ServiceSectionStyled = styled.div`
     flex-flow: row nowrap;
     margin-top: 5rem;
   }
-  @media (max-width: 425px) {
+  @media (max-width: 481px) {
     .services {
       flex-flow: column;
     }
